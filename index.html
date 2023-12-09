@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <title>roomies</title>
+<link href="estilo.ccs" rel="stylesheet">
+<style>
+    h1 {
+        color:rgb(222, 220, 245); 
+    }
+    h3 {
+        color:rgb(226, 43, 43);
+    }
+    p{
+        color:rgb(255, 205, 205);
+    }
+</style>
+
+</head>
+<body>
+    <h1>¡Hola, mundo!</h1>
+    <h2>¡Hola, mundo!</h2>
+    <h3>¡Hola, mundo!</h3>
+    <h4>¡Hola, mundo!</h4>
+    <h5>¡Hola, mundo!</h5>
+    <h6>¡Hola, mundo!</h6>
+    <h1 style="color:rgb(193, 127, 255);"> Xaly, Yeraldy y Zulma </h1>
+
+    <h1 id="Roomies"> Xaly, Yeraldy y Zulma </h1> 
+
+    <main> 
+        <h3> fotos de mis amigas</h3>
+        <img src="C:\Users\LABII-PC24\Downloads\roomies1.jpeg" alt="roomies1" class="bordes-redondeados"> 
+        <div>
+            <p>Cosas que ellas <strong> aman </strong>:</p> 
+            <h2><em>Lista para conocer mas a mis roomies</em></h2>
+            <ul id="Lista-que-aman">
+                <li>Bailar</li>
+                <li>Comer</li>
+                <li>Dormir</li>
+            </ul>
+            <img src="C:\Users\LABII-PC24\Downloads\roomies3.jpeg" alt="roomies3" class="imagen-de-amigas"> <!--imagen desde nuestro dispositivo-->
+            <br>
+    
+             <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+    
+             <a href="#parrafo-1">Características de Zulma</a>
+             <a href="#parrafo-2">Características de Xaly</a>
+             <a href="#parrafo-3">Características de Yeraldy</a>
+             <a href="#parrafo-4">Aventuras</a>
+    
+            <h3 id="parrafo-1">Características de Zulma</h3>
+    
+            <p>Zulma es muy alegre, amigable, hace amigos muy rápido y le gusta mucho bailar, cuando se trata de la escuela es muy cumplida y trata de hacer las cosas con tiempo.</p>
+    
+            <h3 id="parrafo-2">Características de Xaly</h3>
+            <p>Xaly ama los gatos, en especial a su gatita Lilo, le gusta divertirse y pasar tiempo con sus amigas, le gusta mucho lo de belleza, es muy divertida y todo el tiempo tiene tema de conversación.</p>
+    
+            <h3 id="parrafo-3">Características de Yeraldy</h3>
+            <p>Yeraldy es muy seria en algunas ocasiones, le gusta salir con sus amigas, es amable y no le gusta mucho demostrar sus sentimientos, entablar una conversación con ella es difícil.</p>
+    
+            <h3 id="parrafo-4">Aventuras</h3>
+            <p>He tenido diversas aventuras con ellas, hemos ido a diferentes lugares como a Toluca de compras, a comer, a la plaza a patinar, a Valle de Bravo a conocer el velo de novia, a la presa de Tejupilco, salimos a fiestas y nos hemos divertido y bailado mucho, haciendo nuevos amigos. </p>
+             <!--Crear enlaces externos-->
+            <p>En este link <a href="https://www.facebook.com/alexia.xaly.3?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">puedes ver las redes sociales de Zulma.</a></p>
+            <p>En este link <a href="https://www.facebook.com/ZulmaRS28?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">puedes ver las redes sociales de Xaly.</a></p>
+            <p>En este link <a href="https://www.facebook.com/yeraldyzetina?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">puedes ver las redes sociales de Yeraldy.</a></p>
+            <!--Enlaces con imágenes-->
+            <a href="https://www.hogarmania.com/mascotas/cinco-razones-para-adoptar-gato-negro.html" target="_blank"><img src="https://bit.ly/3N6uSMy" alt="gatito negro" id="imagen-con-padding"></a>
+    
+            <img src="C:\Users\Vargas\Documents\Tecnolochicas2023\clase3\Estilo\lasagna.jpg" alt="lasagna" id="imagen-con-padding">
+    
+            <!--Crear enlaces con #. Enlaces muertos o dead links-->
+            <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+    
+                <!--Formulario-->
+                <form action="/enviar-respuesta">
+                    <!--Texto y botón enviar-->
+                    <input type="text" placeholder="URL de la foto de tu gato" required>
+                    <br>
+                    <button type="submit">Enviar</button>
+                   
+                    <!--Botones de radio-->
+                    <p>¿Tu gato es cachorro o adulto?</p>
+                        <label for="cachorro">
+                            <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+                        </label>
+                        <br>
+                        <label for="adulto">
+                            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+                        </label>
+                        <br>
+    
+    
+                    <!--Casillas de verificación-->
+                    <p>¿Qué tipo de gato es el tuyo?</p>
+                    <label for="carinoso">
+                        <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso
+                    </label>
+                    <br>
+                    <label for="perezoso">
+                        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+                    </label>
+                    <br>
+                    <label for="energico">
+                        <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+                    </label>
+                    <br>         
+                </form>
+            </main>
+            <!--pie de página-->
+            <footer>
+                <!--Etiqueta small para que el pie de página se vea más pequeño-->
+                <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+            </footer>
+        </div>
+    </main>
+</body>
+
+
+
+
+</html>
